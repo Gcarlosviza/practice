@@ -1,0 +1,133 @@
+#wel {
+  text-align: center;
+  color: Red;
+}
+h1 {
+  border-style: dashed;
+}
+body {
+  background-color: darkgoldenrod;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellowgreen;
+}
+a:link {
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: khaki;
+}
+nav {
+  background-color: ivory;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  border: black;
+}
+#t {
+  text-align: center;
+  color: brown;
+}
+#border {
+  border-style: solid;
+  list-style-type: upper-roman;
+}
+#border :hover {
+  background-color: red;
+}
+#border2 {
+  border-style: dotted;
+}
+#border2 :hover {
+  background-image: url(/Assignments/A4/snow/chucky.jpg);
+}
+#border li {
+  border-style: dashed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#border2 li {
+  border-style: double;
+  font-size: 20px;
+  padding: 20px;
+  line-height: 70px;
+}
+#container {
+  width: 100%;
+  border-style: solid;
+  text-align-last: center;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border-style: solid;
+  background-color: darkgray;
+  font-size: 20px;
+}
+th {
+  font-style: italic;
+  background-color: cyan;
+  text-align: center;
+  font-size: 30px;
+}
+td:hover {
+  background-color: red;
+}
+tr :nth-child(even) {
+  background-color: brown;
+}
+#topich1 {
+  text-align: center;
+  font-style: italic;
+  color: red;
+
+  text-shadow: 2px 2px 5px black;
+}
+#topich2 {
+  text-align: center;
+  font-style: inherit;
+  color: red;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+}
+#topich3 {
+  text-align: center;
+  font-style: unset;
+  color: red;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+}
+#bac {
+  font-style: italic;
+  line-height: 1.6;
+}
+#bac::first-line {
+  text-transform: uppercase;
+}
+#bac2 {
+  font-style: inherit;
+  line-height: 1.6;
+}
+#bac2::first-letter {
+  font-size: 200%;
+}
+#bac3 {
+  font-style: oblique;
+  line-height: 1.6;
+}
+#bac3::first-letter {
+  font-size: 200%;
+}
+* ::selection body {
+  background-color: yellow;
+}
+#container1 {
+  width: 100%;
+  border-style: solid;
+}
